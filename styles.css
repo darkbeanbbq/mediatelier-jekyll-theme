@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/**************
+divs
+**************/
+
+.conteneur-header {
+	background-color: #2379df;
+	display: flex;
+	justify-content: center;
+}
+
+.header {
+	width: 900px;
+	height: 400px;
+	background-color: #ff6b97;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conteneur-menu {
+	padding: 5px;
+	background-color: #2379df;
+	display: flex;
+	justify-content: center;
+
+	/* pour que la div reste en haut après un scroll */
+	position: sticky;
+	top: 0;
+}
+
+.menu {
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contenu {
+	display: flex;
+	justify-content: center;
+}
+
+.article {
+	margin-top: 50px;
+	padding: 25px;
+	width: 900px;
+}
+
+.footer {
+	height: 50px;
+	background-color: #df235b;
+}
+
+/**************
+typo
+**************/
+
+.titre-header,
+.menu {
+	font-family: Iosevka, 'Iosevka Web', monospace;
+}
+
+.titre-header {
+	font-size: 4em;
+	font-weight: 700;
+}
+
+.menu {
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+/**************
+liens
+**************/
+
+.menu a:link {
+	color: #000000;
+}
+.menu a:visited {
+	color: #000000;
+}
+.menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: 800;
+}
+.menu a:active {
+	color: #ffffff;
+}
