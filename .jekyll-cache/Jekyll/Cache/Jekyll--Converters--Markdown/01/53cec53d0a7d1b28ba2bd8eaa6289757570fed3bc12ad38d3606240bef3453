@@ -1,0 +1,34 @@
+I"'<h1 id="grand-titre">Grand titre</h1>
+
+<h2 id="sous-titre-ou-titre-de-seconde-importance">Sous-titre ou titre de seconde importance</h2>
+
+<p>Paragraphe et texte normal.</p>
+
+<p>Le fichier markdown <code class="highlighter-rouge">.md</code> est traduit en code HTML dans un fichier <code class="highlighter-rouge">.html</code>.</p>
+
+<p>Ensuite grace a une fiche de style (code dans fichier <code class="highlighter-rouge">.css</code>), on donne des regles graphiques pour habiller le texte et faire la mise en page.</p>
+
+<p>Voici un de code HTML :</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h3&gt;</span>Le markdown c'est du HTML lisible<span class="nt">&lt;/h3&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Ecrire en markdown revient a faire du HTML sauf que c'est plus lisible pour un humain. Preceder un titre de trois ### le convertira en balises "h3".<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>Et voici un exemple de code CSS :</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">h3</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="n">SlateGrey</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Les deux combines ca donne ca :</p>
+
+<h3 style="font-size: 16px;">Le markdown c'est du HTML lisible</h3>
+
+<p style="color: SlateGrey;">Ecrire en markdown revient a faire du HTML sauf que c'est plus lisible pour un humain. Preceder un titre de trois ### le convertira en balises "h3".</p>
+:ET
