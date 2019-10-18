@@ -178,8 +178,8 @@ sudo ./install
 pour ajouter l'imprimante et la choisir par défaut :
 
 ```
-    sudo lpadmin -p ZJ-58 -E -v serial:/dev/ttyAMA0?baud=9600 -m zjiang/ZJ-58.ppd
-    sudo lpoptions -d ZJ-58
+sudo lpadmin -p ZJ-58 -E -v serial:/dev/ttyAMA0?baud=9600 -m zjiang/ZJ-58.ppd
+sudo lpoptions -d ZJ-58
 ```
 
 changer la valeur de "baud" en fonction l'imprimante, 9600 ou 19200.
@@ -204,8 +204,8 @@ pour automatiser la prise de photo + impression
 
 ```
 #!/bin/bash
-prendre photo
-imprimer ici.....
+# prendre photo
+# imprimer ici.....
 ```
 
 lui donner le nom qu'on veut (ex: `monscript.sh`)
