@@ -19,7 +19,6 @@ a {
 code {
 	background-color: #eee;
   border-radius: 3px;
-	padding: 0 3px;
 }
 
 /**************
@@ -135,4 +134,23 @@ liens
 }
 .menu a:active {
 	color: #ffffff;
+}
+
+
+
+/**************
+tests
+**************/
+
+
+.highlight {
+  overflow: auto; /* pour avoir une scrollbar si ligne est trop longue */
+  color: #cdcdcd;
+  border-radius: 3px;
+  background-color: #3c3c3c;
+  padding: 10px;
+}
+
+.highlight code {
+  background-color: inherit; /* pour heriter du fond de .highlight et pas de code */
 }
