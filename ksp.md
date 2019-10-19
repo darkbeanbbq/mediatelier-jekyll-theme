@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: responsive
 titre: Création et décollage d'une fusée sur KSP
 ---
 

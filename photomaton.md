@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: responsive
 titre: Fabriquer un photomaton avec un Raspberry Pi
 ---
 
@@ -85,7 +85,7 @@ Choisir l'utilisateur "pi" avec le mot de passe que vous avez choisi ou celui pa
 
 ..petit texte de transition ?...
 
-
+---
 
 ## La camera
 
@@ -102,6 +102,9 @@ sudo apt-get install fswebcam
 ```
 
 La commande `raspistill` est préinstallé sur Raspbian et donc ne nécessite pas l'installation de packets supplémentaires.
+
+
+
 
 #### 	Test de la caméra
 
@@ -142,7 +145,7 @@ pour prendre une photo à la webcam et la sauvegarder sans la bannière dans *mo
 ```
 fswebcam --nobanner /mondossier/photo.jpg
 ```
-
+---
 
 ## L'imprimante
 
@@ -194,7 +197,7 @@ Pour toute autres imprimantes utiliser le nom `/dev/ttyAMA0` ou `/dev/serial0`
 
 #### 	Essais d'impression de texte et d'images
 
-
+---
 
 ## Photomat'
 
@@ -241,7 +244,7 @@ done
 
 
 
-===
+---
 
 
 

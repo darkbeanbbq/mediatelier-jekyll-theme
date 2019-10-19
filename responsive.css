@@ -6,18 +6,25 @@
 
 body {
 	font-size: 16px;
+  line-height: 1.6;
 }
 
-p {
-	margin-bottom: 10px;
+p, blockquote, table {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 a {
 	text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 code {
-	background-color: #eee;
+	background-color: #ffffff; /* #eee */
+  border: solid 1px #dddddd;
   border-radius: 3px;
   padding: 2px;
 }
@@ -37,19 +44,23 @@ divs
 }
 
 .menu {
-	justify-content: space-around;
-  background-color: #4071dd;
+  display: flex;
+  flex-direction: column;
+  background-color: #dd4057;
+}
+
+body {
+  background-color: #40dd7a;
 }
 
 .contenu {
- background-color: #40dd7a;
+ background-color: #ffffff; /* #40dd7a */
  flex-direction: column;
  padding: 25px;
 }
 
 .contenu img {
 	border-radius: 10px;
-	margin: 10px 0px 10px 0px;
 }
 
 .footer {
@@ -65,6 +76,32 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Iosevka, 'Iosevka Web', monospace;
 }
 
+h1 {
+  font-size: 2.25em;
+  padding-bottom: .3em;
+  padding-top: .75em;
+}
+h2 {
+  padding-bottom: .3em;
+  font-size: 1.75em;
+  padding-top: .75em;
+}
+h3 {
+  font-size: 1.5em;
+  padding-top: .5em;
+}
+h4 {
+  font-size: 1.25em;
+  padding-top: .5em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 1em;
+  color: #777;
+}
+
 p {
 	font-family: sans-serif;
 }
@@ -77,7 +114,7 @@ ul {
 	font-family: Iosevka, 'Iosevka Web', monospace;
 	text-align: center;
 	padding: 0.5em;
-	font-size: 1.4em; /* 1.4em */
+	font-size: 1.5em;
 	font-weight: 600;
 }
 
@@ -101,7 +138,6 @@ liens
 }
 
 
-
 /**************
 tests
 **************/
@@ -116,12 +152,70 @@ tests
 }
 
 .highlight code {
-  background-color: transparent; /* pour heriter du fond de .highlight et pas de code */
+  background-color: transparent; /* pour ne pas avoir le fond de code dans .highlight */
+  border: 0 none;
 }
 
 blockquote {
   border-radius: 3px;
   background-color: #edeaea;
-  padding: 10px;
+  padding: 2px 10px 10px 30px; /* 2px en haut car c'est pas centré sinon */
   border-left: 20px solid #dddddd;
+}
+
+hr {
+    height: 4px;
+    margin: 16px 0;
+    background-color: #cdcdcd;
+    border: 0 none;
+}
+
+table {
+  width: 100%;
+  border: 4px solid #cdcdcd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+th {
+  padding-bottom: 0.3em;
+}
+
+td {
+  border-top: 1px solid #cdcdcd;
+}
+
+td, th {
+padding: 5px 10px;
+}
+
+/**************
+responsive
+**************/
+
+/* pour mobiles */
+@media only screen and (max-width: 400px) {
+  .menu {
+    background-color: #dd4057;
+  }
+}
+
+/* pour tablettes */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .menu {
+    background-color: #f4dd45;
+    flex-direction: row;
+    align-items: center;
+}
+/* pour ordinateurs */
+@media only screen and (min-width: 961px) {
+  .menu {
+    background-color: #4071dd;
+    flex-direction: row; /* ça marche pas alors que oui pour les tablettes ??!! */
+    align-items: center;
+  }
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
 }
