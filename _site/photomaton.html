@@ -1,21 +1,17 @@
-<DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html>
+<html lang='fr'>
   <head>
-		<meta charset='UTF-8'/>
+    <meta charset='UTF-8'/>
     <title>Fabriquer un photomaton avec un Raspberry Pi</title>
-		<link rel="stylesheet" href="iosevka.css">
-		<link rel="stylesheet" href="styles.css">
-		<script src="prefixfree.min.js"></script>
+    <link rel="stylesheet" href="iosevka.css">
+    <link rel='stylesheet' href='responsive.css'/>
+    <script src="prefixfree.min.js"></script>
+    <meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
   </head>
   <body>
-		<div class="conteneur-header">
-			<div class="header">
-				<div class="image-header"><img src=""/></div>
-				<div class="titre-header">Fabriquer un photomaton avec un Raspberry Pi</div>
-			</div>
-		</div>
-    <div class="conteneur-menu">
-			<div class="menu">
+    <div class='page'>
+      <div class='section menu'>
+        <div class="menu">
   
   <div><a href="/ksp.html" >tutoriels</a></div>
   
@@ -25,10 +21,10 @@
   
 </div>
 
-		</div>
-		<div class="contenu">
-			<div class="article">
-			<h1 id="fabriquer-un-photomaton-avec-un-raspberry-pi">Fabriquer un photomaton avec un Raspberry Pi</h1>
+      </div>
+      <div class='section header'></div>
+      <div class='section contenu'>
+        <h1 id="fabriquer-un-photomaton-avec-un-raspberry-pi">Fabriquer un photomaton avec un Raspberry Pi</h1>
 
 <p>[!] - rédiger rapidement - à revérifier et à corriger - [!]</p>
 
@@ -107,6 +103,8 @@
 
 <p>..petit texte de transition ?…</p>
 
+<hr />
+
 <h2 id="la-camera">La camera</h2>
 
 <p>::10 minutes::</p>
@@ -156,6 +154,7 @@
 pour prendre une photo à la webcam et la sauvegarder sans la bannière dans <em>mondossier</em> il faut écrire :</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fswebcam --nobanner /mondossier/photo.jpg
 </code></pre></div></div>
+<hr />
 
 <h2 id="limprimante">L’imprimante</h2>
 
@@ -196,6 +195,8 @@ sudo lpoptions -d ZJ-58
 
 <h4 id="essais-dimpression-de-texte-et-dimages">Essais d’impression de texte et d’images</h4>
 
+<hr />
+
 <h2 id="photomat">Photomat’</h2>
 
 <h4 id="création-dun-script">Création d’un script</h4>
@@ -233,7 +234,7 @@ gpio <span class="nt">-g</span> mode  <span class="nv">$BOUTON</span> up
 done</span>
 </code></pre></div></div>
 
-<p>===</p>
+<hr />
 
 <h5 id="configuration-du-démarrage-automatique">Configuration du démarrage automatique</h5>
 
@@ -249,9 +250,8 @@ done</span>
 
 <p>Sauvegarder et quitter l’editeur de texte nano.</p>
 
-			</div>
-		</div>
-		<div class="footer">
-		</div>
+      </div>
+      <div class='section footer'></div>
+    </div>
   </body>
 </html>
