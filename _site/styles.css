@@ -19,6 +19,7 @@ a {
 code {
 	background-color: #eee;
   border-radius: 3px;
+  padding: 2px;
 }
 
 /**************
@@ -60,6 +61,7 @@ divs
 .contenu {
 	display: flex;
 	justify-content: center;
+  flex-wrap: wrap; /* test */
 	background-color: #ebebeb;
 }
 
@@ -69,7 +71,7 @@ divs
 	border-radius: 5px;
 	margin-top: 50px;
 	padding: 25px;
-	width: 900px;
+	max-width: 900px;
 }
 
 .article img {
@@ -152,5 +154,12 @@ tests
 }
 
 .highlight code {
-  background-color: inherit; /* pour heriter du fond de .highlight et pas de code */
+  background-color: transparent; /* pour heriter du fond de .highlight et pas de code */
+}
+
+blockquote {
+  border-radius: 3px;
+  background-color: #edeaea;
+  padding: 10px;
+  border-left: 20px solid #dddddd;
 }

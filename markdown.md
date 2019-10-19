@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: responsive
 titre: Le markdown, le HTML et le CSS
 ---
 
@@ -38,3 +38,9 @@ Les deux combines ca donne ca :
 <h3 style='font-size: 16px;'>Le markdown c'est du HTML lisible</h3>
 
 <p style='color: SlateGrey;'>Ecrire en markdown revient a faire du HTML sauf que c'est plus lisible pour un humain. Preceder un titre de trois ### le convertira en balises "h3".</p>
+
+> "Le markdown c'est super pratique pour écrire du contenu pour le web rapidement et sans logiciel de traitement de texte particulier !"
+
+Voici du markdown et son résultât côte à côte :
+
+![markdown preview atom](images/markdown-preview.png)
