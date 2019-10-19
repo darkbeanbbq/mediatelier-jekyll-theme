@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+code {
+	background-color: #eee;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+/**************
+divs
+**************/
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+}
+
+.menu {
+	justify-content: space-around;
+  background-color: #4071dd;
+}
+
+.contenu {
+ background-color: #40dd7a;
+ flex-direction: column;
+ padding: 25px;
+}
+
+.contenu img {
+	border-radius: 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+.footer {
+	height: 50px;
+	background-color: #dd4057;
+}
+
+/**************
+typo
+**************/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Iosevka, 'Iosevka Web', monospace;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.menu {
+	font-family: Iosevka, 'Iosevka Web', monospace;
+	text-align: center;
+	padding: 0.5em;
+	font-size: 1.4em; /* 1.4em */
+	font-weight: 600;
+}
+
+/**************
+liens
+**************/
+
+.menu a:link {
+	color: #000000;
+}
+.menu a:visited {
+	color: #000000;
+}
+.menu a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: 800;
+}
+.menu a:active {
+	color: #ffffff;
+}
+
+
+
+/**************
+tests
+**************/
+
+
+.highlight {
+  overflow: auto; /* pour avoir une scrollbar si ligne est trop longue */
+  color: #cdcdcd;
+  border-radius: 3px;
+  background-color: #3c3c3c;
+  padding: 10px;
+}
+
+.highlight code {
+  background-color: transparent; /* pour heriter du fond de .highlight et pas de code */
+}
+
+blockquote {
+  border-radius: 3px;
+  background-color: #edeaea;
+  padding: 10px;
+  border-left: 20px solid #dddddd;
+}
