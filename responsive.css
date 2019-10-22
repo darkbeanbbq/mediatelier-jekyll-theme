@@ -139,6 +139,8 @@ tests
 **************/
 
 
+
+/* code fence */
 .highlight {
   overflow: auto; /* pour avoir une scrollbar si ligne est trop longue */
   color: #cdcdcd;
@@ -159,6 +161,7 @@ blockquote {
   border-left: 20px solid #dddddd;
 }
 
+/* barre de séparation --- */
 hr {
     height: 4px;
     margin: 16px 0;
@@ -166,6 +169,7 @@ hr {
     border: 0 none;
 }
 
+/* tableaux */
 table {
   width: 100%;
   border: 4px solid #cdcdcd;
@@ -185,6 +189,7 @@ td, th {
 	padding: 5px 10px;
 }
 
+/* tests divs infos fiche animation */
 .info-fiche {
 	display: flex;
 	flex-direction: column;
@@ -203,6 +208,62 @@ td, th {
 
 .liste-materiel {
 	background-color: #f9c646;
+}
+
+/* tests divs-liens avec image et texte dedans (voir divs-liens.md) */
+.conteneur-boites-lien {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boite-XL,
+.boite-L,
+.boite-M,
+.boite-S {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.boite-lien:hover img {
+  opacity: 0.5;
+}
+
+.boite-lien-texte {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boite-XL {
+  background-color: #4071dd;
+  width: 100%;
+  height: 30em;
+}
+
+.boite-L {
+  background-color: #40dd7a;
+  width: 100%;
+  height: 15em;
+}
+
+.boite-M {
+  background-color: #f95e5e;
+  width: 50%;
+  height: 8em;
+}
+
+.boite-S {
+  background-color: #f9c646;
+  width: 50%;
+  height: 6em;
 }
 
 /**************
