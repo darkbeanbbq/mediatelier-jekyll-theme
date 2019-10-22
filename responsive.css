@@ -5,6 +5,7 @@
 }
 
 body {
+	background-color: #40dd7a;
 	font-size: 16px;
   line-height: 1.6;
 }
@@ -44,19 +45,22 @@ divs
 }
 
 .menu {
-  display: flex;
-  flex-direction: column;
-  background-color: #dd4057;
+	display: flex;
+	justify-content: space-around;
+	padding: 0.5em;
+	font-family: Iosevka, 'Iosevka Web', monospace;
+	font-weight: 600;
+	text-align: center;
 }
 
-body {
-  background-color: #40dd7a;
+.menu div {
+	padding: 0 1em;
 }
 
 .contenu {
- background-color: #ffffff; /* #40dd7a */
- flex-direction: column;
- padding: 25px;
+	background-color: #ffffff; /* #40dd7a */
+	flex-direction: column;
+	padding: 25px;
 }
 
 .contenu img {
@@ -108,14 +112,6 @@ p {
 
 ul {
 	list-style-type: square;
-}
-
-.menu {
-	font-family: Iosevka, 'Iosevka Web', monospace;
-	text-align: center;
-	padding: 0.5em;
-	font-size: 1.5em;
-	font-weight: 600;
 }
 
 /**************
@@ -186,7 +182,7 @@ td {
 }
 
 td, th {
-padding: 5px 10px;
+	padding: 5px 10px;
 }
 
 /**************
@@ -196,8 +192,16 @@ responsive
 /* pour mobiles */
 @media only screen and (max-width: 400px) {
   .menu {
-    background-color: #dd4057;
+	  background-color: #dd4057;
+		flex-direction: column;
+		font-size: 1.3em;
   }
+	.menu div {
+		padding: 0.3em 0em;
+	}
+	.contenu {
+			padding: 1em;
+	}
 }
 
 /* pour tablettes */
@@ -206,16 +210,26 @@ responsive
     background-color: #f4dd45;
     flex-direction: row;
     align-items: center;
+		font-size: 1.2em;
+	}
+	.contenu {
+		padding: 2em;
+	}
 }
+
 /* pour ordinateurs */
 @media only screen and (min-width: 961px) {
   .menu {
     background-color: #4071dd;
-    flex-direction: row; /* ça marche pas alors que oui pour les tablettes ??!! */
-    align-items: center;
+    flex-direction: row;
+		align-items: center;
+		font-size: 1.1em;
   }
   .page {
     width: 960px;
     margin: 0 auto;
   }
+	.contenu {
+		padding: 3em;
+	}
 }
