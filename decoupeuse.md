@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: responsive
 titre: Guide d'utilisation de la découpeuse
 ---
 
@@ -14,8 +14,8 @@ titre: Guide d'utilisation de la découpeuse
 Tout pour savoir comment utiliser la découpeuse !
 
 
+{% include toc.html %}
 
-[TOC]
 
 # Préparation du fichier de découpe
 
