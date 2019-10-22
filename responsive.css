@@ -27,7 +27,7 @@ code {
 	background-color: #ffffff; /* #eee */
   border: solid 1px #dddddd;
   border-radius: 3px;
-  padding: 2px;
+  padding: 2px 5px;
 }
 
 /**************
@@ -183,6 +183,20 @@ td {
 
 td, th {
 	padding: 5px 10px;
+}
+
+.info-atelier, .liste-materiel {
+	border-radius: 3px;
+	padding: 0px 2em 1em 2em;
+	margin-top: 1em;
+}
+
+.info-atelier {
+	  background-color: #f95e5e;
+}
+
+.liste-materiel {
+	background-color: #f9c646;
 }
 
 /**************
