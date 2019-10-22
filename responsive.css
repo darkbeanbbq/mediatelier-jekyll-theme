@@ -185,14 +185,20 @@ td, th {
 	padding: 5px 10px;
 }
 
+.info-fiche {
+	display: flex;
+	flex-direction: column;
+}
 .info-atelier, .liste-materiel {
+	display: flex;
+	flex-direction: column;
 	border-radius: 3px;
 	padding: 0px 2em 1em 2em;
 	margin-top: 1em;
 }
 
 .info-atelier {
-	  background-color: #f95e5e;
+	background-color: #f95e5e;
 }
 
 .liste-materiel {
@@ -216,6 +222,10 @@ responsive
 	.contenu {
 			padding: 1em;
 	}
+
+	.info-atelier, .liste-materiel {
+		width: 100%;
+	}
 }
 
 /* pour tablettes */
@@ -228,6 +238,10 @@ responsive
 	}
 	.contenu {
 		padding: 2em;
+	}
+
+	.info-atelier, .liste-materiel {
+		width: 100%;
 	}
 }
 
@@ -245,5 +259,13 @@ responsive
   }
 	.contenu {
 		padding: 3em;
+	}
+
+	.info-atelier, .liste-materiel {
+		width: 50%;
+		margin: 0 0.5em;
+	}
+	.info-fiche {
+		flex-direction: row;
 	}
 }

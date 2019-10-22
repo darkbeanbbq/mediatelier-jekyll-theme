@@ -10,18 +10,19 @@ titre: Création et décollage d'une fusée sur KSP
 ## Description
 Construire et faire décoller une fusée dans le jeu vidéo de simulation ludico-spatiale Kerbal Space Program (KSP).
 
+<div class="info-fiche">
 <div class="info-atelier">
 
 ## Info atelier
-âge recommandé : 10 ans et plus
+**âge recommandé :** 10 ans et plus
 
-type d'activité : individuel
+**type d'activité :** individuel
 
-difficulté : débutant/intermédiaire
+**difficulté :** débutant/intermédiaire
 
-pré-requis : avoir déjà manipulé un ordinateur
+**pré-requis :** avoir déjà manipulé un ordinateur
 
-temps nécessaire : 1 à 2 heures
+**temps nécessaire :** 1 à 2 heures
 
 </div>
 
@@ -34,6 +35,7 @@ temps nécessaire : 1 à 2 heures
 
 en option : un projecteur pour faire les démonstrations
 
+</div>
 </div>
 
 ## Objectif
