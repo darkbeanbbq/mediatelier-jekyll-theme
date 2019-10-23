@@ -4,6 +4,7 @@ titre: titre de l'atelier
 ---
 
 ![--image titre--]()
+[lien vers tuto]()
 
 ## Description
 

@@ -210,6 +210,24 @@ td, th {
 	background-color: #f9c646;
 }
 
+/* bouton vers tuto ou fiche animation */
+.bouton-fiche {
+	background-color: #f95e5e;
+	border: solid 2px #f95e5e;
+	border-radius: 15px;
+	color: #fff;
+	padding: 0.4em 3em;
+	text-align: center;
+	cursor: pointer;
+	float: right;
+}
+
+.bouton-fiche:hover {
+	background-color: #fff;
+	border: solid 2px #f95e5e;
+	color: #f95e5e;
+}
+
 /* tests divs-liens avec image et texte dedans (voir divs-liens.md) */
 .conteneur-boites-lien {
   display: flex;
@@ -285,6 +303,10 @@ responsive
 	}
 
 	.info-atelier, .liste-materiel {
+		width: 100%;
+	}
+
+	.bouton-fiche {
 		width: 100%;
 	}
 }
