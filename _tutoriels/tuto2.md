@@ -1,5 +1,4 @@
 ---
-layout: tutoriel
 titre: tuto 2
 ---
 

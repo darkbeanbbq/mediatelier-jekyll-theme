@@ -1,5 +1,5 @@
 ---
-layout: responsive
+layout: tutoriel
 titre: titre de l'atelier
 ---
 

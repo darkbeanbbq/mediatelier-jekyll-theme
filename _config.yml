@@ -4,3 +4,14 @@ kramdown:
 collections:
   tutoriels:
       output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "tutoriels"
+    values:
+      layout: "tutoriel"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

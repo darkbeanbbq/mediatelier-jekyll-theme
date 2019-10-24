@@ -1,5 +1,4 @@
 ---
-layout: responsive
 titre: infos pratiques
 ---
 
