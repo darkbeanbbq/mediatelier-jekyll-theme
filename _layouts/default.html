@@ -1,28 +1,23 @@
-<DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html>
+<html lang='fr'>
   <head>
-		<meta charset='UTF-8'/>
+    <meta charset='UTF-8'/>
     <title>{{ page.titre }}</title>
-		<link rel="stylesheet" href="/assets/css/iosevka.css">
-		<link rel="stylesheet" href="/assets/css/responsive.css">
-		<script src="/assets/css/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/iosevka.css">
+    <link rel='stylesheet' href='/assets/css/responsive.css'/>
+    <script src="/assets/js/prefixfree.min.js"></script>
+    <meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
   </head>
   <body>
-		<div class="conteneur-header">
-			<div class="header">
-				<div class="image-header"><img src=""/></div>
-				<div class="titre-header">{{ page.titre }}</div>
-			</div>
-		</div>
-    <div class="conteneur-menu">
-			{% include menu.html %}
-		</div>
-		<div class="contenu">
-			<div class="article">
-			{{ content }}
-			</div>
-		</div>
-		<div class="footer">
-		</div>
+    <div class='page'>
+      <div class='section menu'>
+        {% include menu.html %}
+      </div>
+      <div class='section header'></div>
+      <div class='section contenu'>
+        {{content}}
+      </div>
+      <div class='section footer'></div>
+    </div>
   </body>
 </html>
