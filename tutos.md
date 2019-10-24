@@ -1,5 +1,5 @@
 ---
-layout: tutoriel
+layout: responsive
 titre: tutoriels
 ---
 
