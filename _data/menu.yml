@@ -1,7 +1,7 @@
 #- name: le mediatelier
 #  link: /
 - name: tutoriels
-  link: /ksp.html
+  link: /tutos.html
 - name: guides et documentation
   link: /docs.html
 - name: infos pratiques

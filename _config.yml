@@ -1,2 +1,6 @@
 kramdown:
   parse_block_html: true
+
+collections:
+  tutoriels:
+      output: true
