@@ -1,3 +1,5 @@
+baseurl: /mediatelier-jekyll-theme
+
 kramdown:
   parse_block_html: true
 
