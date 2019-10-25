@@ -1,4 +1,5 @@
-baseurl: /mediatelier-jekyll-theme
+#baseurl = rien (quand en root) = nom_du_dossier (quand dans un sous-dossier du root, ex: pour github pages)
+baseurl:
 
 kramdown:
   parse_block_html: true
