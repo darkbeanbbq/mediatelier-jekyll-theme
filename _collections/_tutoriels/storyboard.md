@@ -1,7 +1,7 @@
 ---
 titre: Faire un storyboard (BD)
 temps: 15 minutes
-difficulté: facile
+niveau: facile
 age: 6 ans +
 ---
 

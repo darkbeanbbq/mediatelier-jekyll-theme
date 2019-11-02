@@ -1,7 +1,7 @@
 ---
 titre: Créer une page web
 temps: 1 heure
-difficulté: facile
+niveau: facile
 age: 10 ans +
 ---
 

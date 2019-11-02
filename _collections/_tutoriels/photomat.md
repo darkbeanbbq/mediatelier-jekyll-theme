@@ -1,7 +1,7 @@
 ---
 titre: Fabriquer un photomat avec un Raspberry Pi
 temps: 1 heure
-difficulté: intermédiaire
+niveau: intermédiaire
 age: 14 ans +
 ---
 

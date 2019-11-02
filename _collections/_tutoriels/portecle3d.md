@@ -1,7 +1,7 @@
 ---
 titre: Modéliser un porte clé en 3D
 temps: 45 minutes
-difficulté: facile
+niveau: facile
 age: 10 ans +
 ---
 

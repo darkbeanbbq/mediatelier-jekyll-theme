@@ -1,7 +1,7 @@
 ---
 titre: Dessiner son propre logo
 temps: 45 minutes
-difficulté: facile
+niveau: facile
 age: 12 ans +
 ---
 

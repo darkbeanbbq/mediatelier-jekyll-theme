@@ -1,7 +1,7 @@
 ---
 titre: Coloriser des dessins sur ordinateur (BD)
 temps: 1 heure
-difficulté: intermédiaire
+niveau: intermédiaire
 age: 10 ans +
 ---
 
