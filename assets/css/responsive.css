@@ -189,7 +189,7 @@ td, th {
 	padding: 5px 10px;
 }
 
-/* tests divs infos fiche animation */
+/* tests divs infos fiche animation (voir ksp-fiche.md) */
 .info-fiche {
 	display: flex;
 	flex-direction: column;
@@ -203,10 +203,19 @@ td, th {
 }
 
 /* menu barre des tutos (icons + lien vers fiche) */
-.menu-tuto {
+.menu-tuto,
+.info-tuto {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+}
+
+.info-tuto {
+  background-color: #9ecced;
+  border-radius: 15px;
+  padding: 0.4em 3em;
+  text-align: center;
 }
 
 .info-atelier {
