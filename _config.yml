@@ -1,17 +1,22 @@
-#baseurl = rien (quand en root) = nom_du_dossier (quand dans un sous-dossier du root, ex: pour github pages)
+# baseurl = rien (quand en root) = nom_du_dossier (quand dans un sous-dossier du root, ex: pour github pages)
 baseurl:
 
 kramdown:
   parse_block_html: true
 
+
+# collections
+collections_dir: _collections
+
 collections:
   tutoriels:
-      output: true
+    output: true
   fiches:
     output: true
   guides:
     output: true
 
+# mise en page par défaut par collection
 defaults:
   - scope:
       path: ""
