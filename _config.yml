@@ -7,6 +7,10 @@ kramdown:
 collections:
   tutoriels:
       output: true
+  fiches:
+    output: true
+  guides:
+    output: true
 
 defaults:
   - scope:
@@ -14,6 +18,16 @@ defaults:
       type: "tutoriels"
     values:
       layout: "tutoriel"
+  - scope:
+      path: ""
+      type: "fiches"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "default"
   - scope:
       path: ""
     values:
