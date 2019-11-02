@@ -7,6 +7,8 @@ age: 10 ans +
 
 [//]: # intro
 
+Dans ce tuto nous allons découvrir l'interface de Kerbal Space Program afin de construire et faire décoller une fusée. 
+
 ## présentation du jeu
 physique et création de fusées
 
