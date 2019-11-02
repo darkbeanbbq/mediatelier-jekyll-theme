@@ -5,7 +5,7 @@ difficulté: intermédiaire
 age: 10 ans +
 ---
 
-[//] # intro
+[//]: # intro
 
 ## présentation du jeu
 physique et création de fusées

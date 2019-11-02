@@ -5,7 +5,7 @@ difficulté: facile
 age: 10 ans +
 ---
 
-[//] # intro
+[//]: # intro
 
 ## présentation html et css
 le html c'est la structure, le css c'est les règles de style

@@ -5,7 +5,7 @@ difficulté: facile
 age: 12 ans +
 ---
 
-[//] # intro
+[//]: # intro
 
 ## dessiner des idées
 faire des croquis d'idées différentes

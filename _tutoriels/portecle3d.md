@@ -5,7 +5,7 @@ difficulté: facile
 age: 10 ans +
 ---
 
-[//] # intro
+[//]: # intro
 
 Dans ce tuto nous allons utiliser un logiciel de modélisation
 

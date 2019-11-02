@@ -1,5 +1,5 @@
 ---
-titre: Reliure : faire un livret (BD)
+titre: "Reliure : faire un livret (BD)"
 temps: 15 minutes
 difficulté: facile
 age: 10 ans +

@@ -5,7 +5,7 @@ difficulté: intermédiaire
 age: 10 ans +
 ---
 
-[//] # intro
+[//]: # intro
 
 Dans ce tuto nous allons voir comment passer d'un dessin en noir et blanc scanné à une version en couleur.
 

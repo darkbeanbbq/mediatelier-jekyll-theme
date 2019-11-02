@@ -5,6 +5,6 @@ difficulté: intermédiaire
 age: 14 ans +
 ---
 
-[//] # intro
+[//]: # intro
 
 voir tuto déjà fait..
