@@ -203,7 +203,7 @@ td, th {
 }
 
 /* menu barre des tutos (icons + lien vers fiche) */
-.menu-fiche {
+.menu-tuto {
   display: flex;
   flex-direction: row;
   align-items: center;
