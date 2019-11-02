@@ -1,3 +1,6 @@
 <div class="menu-fiche">
-	<a href="{{page.url | relative_url | replace: '/tutoriels/', '/fiches/' | replace: '.html', '-fiche.html'}}"><button class="bouton-fiche">fiche animateur</button></a>
+	<img height="24" width="24" src="/assets/svg/remixicon/timer-line.svg"/> <p>{{ page.temps }}</p>
+	<img height="24" width="24" src="/assets/svg/remixicon/filter-2-line.svg"/> <p>{{ page.niveau }}</p>
+	<img height="24" width="24" src="/assets/svg/remixicon/parent-line.svg"/> <p>{{ page.age }}</p>
+	<a href="{{page.url | relative_url | replace: '/tutoriels/', '/fiches/' | replace: '.html', '-fiche.html'}}"><button class="bouton-fiche"><img height="16" width="16" src="/assets/svg/remixicon/file-list-2-line.svg"/>fiche animateur</button></a>
 </div>

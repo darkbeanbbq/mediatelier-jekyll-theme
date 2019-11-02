@@ -202,6 +202,13 @@ td, th {
 	margin-top: 1em;
 }
 
+/* menu barre des tutos (icons + lien vers fiche) */
+.menu-fiche {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .info-atelier {
 	background-color: #f95e5e;
 }

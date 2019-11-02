@@ -1,7 +1,7 @@
 ---
 titre: Faire un dessin à découper en vinyle autocollant
 temps: 25 minutes
-difficulté: intermédiaire
+niveau: intermédiaire
 age: 12 ans +
 ---
 
