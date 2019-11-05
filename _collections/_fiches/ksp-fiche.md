@@ -1,5 +1,6 @@
 ---
 titre: Création et décollage d'une fusée sur KSP
+tuto: ksp
 ---
 
 ![--image titre--](img/ksp/ksp_orbite.png)

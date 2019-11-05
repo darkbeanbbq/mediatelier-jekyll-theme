@@ -3,6 +3,7 @@ titre: "Reliure : faire un livret (BD)"
 temps: 15 minutes
 niveau: facile
 age: 10 ans +
+fiche: reliure-fiche
 ---
 
 La reliure permet de relier des feuilles ensemble pour créer un cahier, carnet ou livret. C'est une technique très simple qui peut donner du cachet à des feuilles autrement toutes simples.

@@ -27,7 +27,7 @@ defaults:
       path: ""
       type: "fiches"
     values:
-      layout: "default"
+      layout: "tutoriel"
   - scope:
       path: ""
       type: "guides"

@@ -5,6 +5,25 @@
 		<img height="24" width="24" src="{{ '/assets/svg/remixicon/parent-line.svg' | relative_url }}"> <p>{{ page.age }}</p>
 	</div>
 	<div>
-		<a href="{{ page.url | relative_url | replace: '/tutoriels/', '/fiches/' | replace: '.html', '-fiche.html' }}"><button class="bouton-fiche"><img height="16" width="16" src="{{ '/assets/svg/remixicon/file-list-2-line.svg' | relative_url }}"/>fiche animateur</button></a>
+		{% if page.fiche %}
+		<!-- si il y a la variable fiche, afficher le bouton vers la fiche -->
+		<a href="{{ page.url | relative_url | replace: '/tutoriels/', '/fiches/' | replace: '.html', '-fiche.html' }}">
+			<button class="bouton-fiche">
+				<img height="16" width="16" src="{{ '/assets/svg/remixicon/file-list-2-line.svg' | relative_url }}"/>
+				fiche animateur
+			</button>
+		</a>
+		{% endif %}
+
+		{% if page.tuto %}
+		<!-- si il y a la variable tuto, afficher le bouton vers le tuto -->
+		<a href="{{ page.url | relative_url | replace: '/fiches/', '/tutoriels/' | replace: '-fiche.html',  '.html' }}">
+			<button class="bouton-fiche">
+				<img height="16" width="16" src="{{ '/assets/svg/remixicon/file-list-2-line.svg' | relative_url }}"/>
+				tutoriel
+			</button>
+		</a>
+		{% endif %}
+
 	</div>
 </div>

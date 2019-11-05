@@ -3,6 +3,7 @@ titre: Construire et faire décoller une fusée dans KSP
 temps: 1 heure +
 niveau: intermédiaire
 age: 10 ans +
+fiche: ksp-fiche
 ---
 
 [//]: # intro

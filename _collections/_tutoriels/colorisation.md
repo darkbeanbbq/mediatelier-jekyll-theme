@@ -3,6 +3,7 @@ titre: Coloriser des dessins sur ordinateur (BD)
 temps: 1 heure
 niveau: intermédiaire
 age: 10 ans +
+fiche: colorisation-fiche
 ---
 
 [//]: # intro
