@@ -87,6 +87,7 @@ Et dans le meilleur des cas vous avez réussi à regagner la surface de Kerbin. 
 ## récolter et dépenser des points de science
 
  crew report
+ 
  ![crew report](images/ksp/fusee-simple-crew-report.png)
 
  eva (activité extra véhiculaire) + surface sample
@@ -97,7 +98,8 @@ Et dans le meilleur des cas vous avez réussi à regagner la surface de Kerbin. 
  rerentrer dans la fusée avec la touche `B`
 
  retour au centre et pour dépenser nos points de science
-  ![](images/ksp/recover-vessel.png)
+
+![](images/ksp/recover-vessel.png)
 
   avec tout ça on devrait avoir assez de science pour découvrir de nouvelles technologies.
 
