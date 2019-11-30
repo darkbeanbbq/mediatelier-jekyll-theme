@@ -18,7 +18,7 @@ physique et création de fusées (concepts et ui)
 
 Kerbal Space Program est une jeu de simulation spatiale dans lequel on peut construire des vaisseaux et les faire voler et décoller pour explorer le système solaire (Kerbol)
 
-Dans ce tuto nous créer une nouvelle partie avec le mode de jeu *science*. Après ce tuto vous pourrez tester plus de possibilités dans les autres modes.
+Dans ce tuto nous allons créer une nouvelle partie avec le mode de jeu *science*. Après ce tuto vous pourrez tester plus de possibilités dans les autres modes.
 
 La première étape va être de construire une fusée toute simple pour apprendre a utiliser l'interface de construction et de pilotage. Pour cela cliquer sur le gros bâtiment centrale, le *Vehicule Assembly Building* ou l'atelier de construction de fusées.
 
@@ -87,7 +87,7 @@ Et dans le meilleur des cas vous avez réussi à regagner la surface de Kerbin. 
 ## récolter et dépenser des points de science
 
  crew report
- 
+
  ![crew report](images/ksp/fusee-simple-crew-report.png)
 
  eva (activité extra véhiculaire) + surface sample
