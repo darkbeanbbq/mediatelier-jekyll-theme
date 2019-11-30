@@ -14,16 +14,16 @@ Dans ce tuto on voir comment faire un dessin qui va ensuite permettre de guider 
 
 Faire son dessin au feutre noir sur du papier blanc, pour qu'il se numérise bien et que l'ordinateur puisse bien le reconnaître.
 
-Pour avoir le meilleur résultat suivre ces règles :
-- Faire un dessin simple. *Plus il y a de détails plus l'autocollant va être compliqué à découper et à coller.*
-- Bien remplir les zones pleines. *Une zone mal remplie demandera plus de travail lors de la prochaine étape*
-- Ne pas faire un dessin trop grand. *Plus le dessin est grand plus il risque d'être complexe. En le  rétrécissant sur ordinateur il risque d'avoir des traits trop fins.*
-
 ![images exemples et contre exemples]()
+
+Pour avoir le meilleur résultat suivre ces règles :
+- **Faire un dessin simple.** *Plus il y a de détails plus l'autocollant va être compliqué à découper et à coller.*
+- **Bien remplir les zones pleines.** *Une zone mal remplie demandera plus de travail lors de la prochaine étape*
+- **Ne pas faire un dessin trop grand.** *Plus le dessin est grand plus il risque d'être complexe. En le  rétrécissant sur ordinateur il risque d'avoir des traits trop fins.*
 
 Une fois le dessin terminé, le scanner et le récupérer sur l'ordinateur.
 
-Pour plus d'info voir le [guide du scanner]().
+Pour plus d'info voir le [guide du scanner](../guides/scanner.html).
 
 
 ## Vectorisation sur Inkscape
