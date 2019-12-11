@@ -30,15 +30,15 @@ Pour plus d'info voir le [guide du scanner](../guides/scanner.html).
 
 Ouvrir son dessin dans Inkscape et le mettre dans le bon sens si ce n'est pas déjà le cas.
 
-![image menu importation image]()
+![image menu importation image](images/autocollant/inkscape-menu-importation-image.png)
 
 Le vectoriser en allant dans `chemin` puis `vectoriser un objet matriciel`.
 
-![image menu inkscape vectoriser objet matriciel]()
+![image menu inkscape vectoriser objet matriciel](images/autocollant/inkscape-menu-vectoriser-matriciel.png)
 
 Cliquer sur le bouton mettre à jour pour avoir un aperçu du résultat de la vectorisation. Si le résultat n'est pas correcte, modifier le seuil de luminosité et recliquer sur `mettre à jour` jusqu'à atteindre le résultat souhaité.
 
-![image menu vectorisation seuil]()
+![image menu vectorisation seuil](images/autocollant/inkscape-menu-vectorisation-seuil.png)
 
 Valider et fermer la fenêtre quand le résultat vous convient.
 
@@ -59,11 +59,11 @@ Pour nettoyer et modifier notre dessin vectorisé on va utiliser l'outil d'édit
 
 Pour retirer un ou plusieurs points (nœuds) il suffit de les sélectionner et de les supprimer avec la touche `retour arrière` ou `suppr`.
 
-![gif inkscape suppression noeuds]()
+![gif inkscape suppression noeuds](images/autocollant/inkscape-suppression-noeuds.webm)
 
 Pour corriger une courbe on peut sélectionner un nœud pour le déplacer et pour modifier la courbe en tirant sur ces poignées ou directement cliquer sur la courbe (entre deux nœuds).
 
-![gif inkscape modification courbe]()
+![gif inkscape modification courbe](images/autocollant/inkscape-modification-courbe.webm)
 
 *N'hésitez pas à zoomer pour mieux voir et corriger les erreurs*
 
