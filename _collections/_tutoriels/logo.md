@@ -34,6 +34,7 @@ Le but n'est pas de faire de jolie dessins mais de faire une liste d'idées sous
 Choisir parmi les idées dessinées celle qui vous plaît le plus. Approfondir cette idée en passant plus de temps à la dessiner et en gardant en tête les caractéristiques d'un bon logo.
 
 ![photo approfondissement logo](images/logo/approfondissement-idee.jpg)
+![photo approfondissement bis logo](images/logo/approfondissement-idee2.jpg)
 
 ## Mettre au propre
 
