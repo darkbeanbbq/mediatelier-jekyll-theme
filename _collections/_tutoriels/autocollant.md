@@ -14,17 +14,21 @@ Dans ce tuto on voir comment faire un dessin qui va ensuite permettre de guider 
 
 Faire son dessin au feutre noir sur du papier blanc, pour qu'il se numérise bien et que l'ordinateur puisse bien le reconnaître.
 
-![images exemples et contre exemples]()
+![image dessin noir et blanc](images/logo/feutre-propre.jpg)
 
 Pour avoir le meilleur résultat suivre ces règles :
+- **Dessiner au feutre noir.** *Un dessin au crayon ou de couleurs claires se vectorise mal*
 - **Faire un dessin simple.** *Plus il y a de détails plus l'autocollant va être compliqué à découper et à coller.*
 - **Bien remplir les zones pleines.** *Une zone mal remplie demandera plus de travail lors de la prochaine étape*
 - **Ne pas faire un dessin trop grand.** *Plus le dessin est grand plus il risque d'être complexe. En le  rétrécissant sur ordinateur il risque d'avoir des traits trop fins.*
+
+![images exemples et contre exemples]()
 
 Une fois le dessin terminé, le scanner et le récupérer sur l'ordinateur.
 
 Pour plus d'info voir le [guide du scanner](../guides/scanner.html).
 
+![image dessin scanné](images/autocollant/dessin-scan.png)
 
 ## Vectorisation sur Inkscape
 
@@ -44,7 +48,9 @@ Valider et fermer la fenêtre quand le résultat vous convient.
 
 >Il est possible que vous n'arriviez jamais à obtenir le résultat souhaité. Dans ce cas là, trouvez les paramètres qui vous en rapproche le plus, le reste sera à corriger à la main.
 
-!!- Déplacer le dessin vectorisé à coté du dessin scanné d'origine et observer les différences. -!!
+Vous pouvez déplacer le dessin vectorisé à coté du dessin scanné d'origine et observer les différences.
+
+![gif dessin scanné à côté de dessin vectorisé](images/autocollant/inkscape-post-vectorisation.gif)
 
 Retirer et effacer le dessin d'origine pour faire de la place.
 
@@ -59,30 +65,19 @@ Pour nettoyer et modifier notre dessin vectorisé on va utiliser l'outil d'édit
 
 Pour retirer un ou plusieurs points (nœuds) il suffit de les sélectionner et de les supprimer avec la touche `retour arrière` ou `suppr`.
 
-![gif inkscape suppression noeuds](images/autocollant/inkscape-suppression-noeuds.webm)
+![gif inkscape suppression noeuds](images/autocollant/inkscape-suppression-noeuds.gif)
+
 
 Pour corriger une courbe on peut sélectionner un nœud pour le déplacer et pour modifier la courbe en tirant sur ces poignées ou directement cliquer sur la courbe (entre deux nœuds).
 
-![gif inkscape modification courbe](images/autocollant/inkscape-modification-courbe.webm)
+![gif inkscape modification courbe](images/autocollant/inkscape-modification-courbe.gif)
 
 *N'hésitez pas à zoomer pour mieux voir et corriger les erreurs*
 
 >Il est possible d'utiliser l'option `chemin` puis `simplifier` pour réduire le nombre de nœuds de tout notre dessin afin lisser les courbes. Mais cela peut aussi entraîner une perte de finesse et de détails.
 
-Une fois que notre dessin et vectorisé et bien nettoyer il est prêt à être envoyer à la machine pour la découpe.
+Une fois que notre dessin et vectorisé et bien nettoyé il est prêt à être envoyé à la machine pour la découpe.
 
 [//]: # Pour plus d'info sur cette étape voir le [~~guide Inkscape~~]().
 
-Pour les étapes suivante voir le [guide de la découpeuse]().
-
----
----
-
-## importation dans drawcut
-pour plus d'info sur les étapes suivante voir le [guide de la découpeuse]()
-importer et vérifier les dimensions
-
-## découpe
-choisir une couleur et lancer la machine
-
-## préparation de l'autocollant
+Pour les étapes suivante voir le [guide de la découpeuse](../guides/decoupeuse.html).
