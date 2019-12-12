@@ -4,10 +4,6 @@ titre: Guide d'utilisation de la découpeuse
 
 # Guide d'utilisation de la découpeuse
 
-[retour au guide des outils](../outils.md)
-
-![--état de l'écriture--](../img/balise_verte.png) *guide à jour*
-
 ![img]
 
 Tout pour savoir comment utiliser la découpeuse !
