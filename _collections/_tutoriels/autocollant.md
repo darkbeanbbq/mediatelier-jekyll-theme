@@ -78,6 +78,8 @@ Pour corriger une courbe on peut sélectionner un nœud pour le déplacer et pou
 
 Une fois que notre dessin et vectorisé et bien nettoyé il est prêt à être envoyé à la machine pour la découpe.
 
+![image dessin vectorisé fini](images/autocollant/fini.png)
+
 [//]: # Pour plus d'info sur cette étape voir le [~~guide Inkscape~~]().
 
 Pour les étapes suivante voir le [guide de la découpeuse](../guides/decoupeuse.html).
