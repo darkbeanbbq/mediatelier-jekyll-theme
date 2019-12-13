@@ -16,11 +16,11 @@ Pour faire un livret A4, suivre les mêmes étapes mais utiliser des feuilles A3
 
 Avant de relier les feuilles il faut préparer notre document à imprimer ou nos pages à dessiner en suivant ce modèle, pour ne pas se retrouver avec la première page à la fin et la dernière au milieu.
 
-![image modèle à 3 pages]()
+![image modèle à 3 pages](images/reliure/pagination-3-pages.png)
 
 On peut utiliser un papier de couleur et/ou plus épais pour la couverture.
 
-![image modèle couverture recto-verso]()
+![image modèle couverture recto-verso](images/reliure/schema-page-simple.png)
 
 ## Regroupement et pliage
 

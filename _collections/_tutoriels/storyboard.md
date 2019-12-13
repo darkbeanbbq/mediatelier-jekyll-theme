@@ -18,7 +18,7 @@ Pour commencer notre storyboard il faut un script ou alors imaginer une histoire
 
 Des éléments utiles à avoir dans son script : le lieu, l'ambiance, les personnages, les actions.
 
-![image script](images/storyboard/script2.png)
+![image script](images/storyboard/script.png)
 
 ## Découpage en cases
 
