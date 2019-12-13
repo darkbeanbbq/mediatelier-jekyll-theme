@@ -1,5 +1,6 @@
 ---
 titre: Créer son logo autocollant
+tuto: logo
 ---
 
 ## description
