@@ -26,7 +26,7 @@ On peut utiliser un papier de couleur et/ou plus épais pour la couverture.
 
 Plier toutes les feuilles en deux et les regrouper les unes dans les autres, de manière à composer un livret en faisant bien attention à l'ordre des pages.
 
-![image livret <<<]()
+![image livret de feuilles](images/reliure/livret-feuilles.jpg)
 
 
 ## Reliure
@@ -36,7 +36,7 @@ Ouvrir le livret de feuilles au milieu et et le long du pli faire trois point au
 Bien maintenir les feuilles alignées les unes sur les autres et percer un trou à l'aide d'un outil pointu sur ces 3 points en traversant bien toutes les feuilles.
 
 Prendre environ 40cm de fil et à l'aide d'une aiguille passer dans les trois trous tel que :
-![image reliure en 8]()
+![image reliure en 8](images/reliure/reliure-en-8-noeud.gif)
 - commencer en passant par le trou du milieu par l'intérieur du livret
 - faire un 8 en passant par les deux autres trous et en finissant pas celui du milieu
 - passer le fil par dessous les deux boucles extérieur du 8 et repasser par le trou du milieu
