@@ -28,12 +28,12 @@ temps nécessaire : 2 heures
 
 ## déroulé
 - présentation des outils (machine + logiciel) et de nos contraintes de travail (logo en noir et blanc, pas trop de détails, doit être lisible a une taille de 4x4 cm) [10 min]
-- petit moment pour avoir des idées et les faire en petits croquis rapides [15 min]
+- petit moment pour avoir des idées et les faire en petits croquis rapides [15-20 min]
 - faire un choix parmi nos idées dessinées
-- approfondir le dessin choisi et le repasser au feutre pour le préparer à être scanné [20 min]
+- approfondir le dessin choisi et le repasser au feutre pour le préparer à être scanné [10-15 min]
 - préparer les logos sur l'ordinateur [15 min] (si pas assez de temps le faire à leur place)
-- choix de la couleur du vinyle et découpe [15 min]
-- récupération des découpes,et préparation des autocollants [15 min]
+- choix de la couleur du vinyle et découpe [10 min]
+- récupération des découpes,et préparation des autocollants [10 min]
 
 - discussion post-atelier
 
