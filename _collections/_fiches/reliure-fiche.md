@@ -5,7 +5,7 @@ tuto: reliure
 
 ## description
 Réaliser un livret A5 à partir de feuilles A4 (vierges, préimprimée ou prédéssinées) relié avec du fil, afin de finaliser une BD, un catalogue, ou un carnet.
-Pour faire un livret A4, suivre les mêmes étapes mais utiliser des feuilles A3.
+Pour faire un livret A4, suivre les mêmes étapes mais utiliser des feuilles A3. Pour un livret A6 utiliser des feuilles A5 (A4 coupé en deux).
 
 ## info atelier
 âge recommandé : 8 ans et plus
@@ -25,6 +25,9 @@ temps nécessaire : 15 minutes
 ## objectif
 - relier plusieurs feuilles A4 ensemble avec du fil pour faire un livret A5.
 - voir qu'avec une technique et des matériaux tout simples on peut fabriquer un livret très facilement et donner du cachet à une création de bande dessinée ou impression de petit catalogue ou magazine.
+
+## conseil
+pour les petits ou les ateliers courts faire des livrets A6 car ils sont moins grands, donc plus facile et rapide à terminer.
 
 ## déroulé
 préparation des feuilles
