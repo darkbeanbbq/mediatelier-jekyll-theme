@@ -16,9 +16,7 @@ Lieux, personnages, actions
 
 Principe de l'écriture interactive (embranchements)
 
-![schéma situation, choix et nouvelles situations]():
-situation A 	- choix 1 - situation A1
-							- choix 2 - situation A2
+![schéma situation, choix et nouvelles situations](images/inklewriter/schema-situation-choix.png)
 
 ## Faire une carte
 
@@ -55,12 +53,21 @@ lié a un paragraphe déjà existant + défaire lien (onglet contenu)
 
 ![imager liste des paragraphes existants](images/inklewriter/liste-paragraphes.png)
 
-ajouter image
-![image ajouter une image]()
+pour ajouter image il suffit de copier le lien vers l'image (qui doit être hébergée sur internet)
+![image icône ajouter une image](images/inklewriter/inserer-image.png)
 
-mode lecture (revenir au tout début)
-![image mode lecture]()
+![gif ajouter une image](images/inklewriter/inserer-image.gif)
 
-section
-markers
-logique
+pour passer en mode lecture cliquer en haut à droite sur `read`
+![image bouton mode lecture](images/inklewriter/bouton-lire.png)
+
+Pour revenir au tout début cliquer sur le flèche, comme en mode écriture.
+![image mode lecture retour au début](images/inklewriter/lecture-retour-debut.png)
+
+Et voilà.
+![image mode lecture début](images/inklewriter/lecture.png)
+
+
+- section
+- markers
+- logique
