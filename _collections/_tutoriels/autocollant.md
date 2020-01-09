@@ -1,5 +1,5 @@
 ---
-titre: Faire un dessin à découper en vinyle autocollant
+titre: Préparer un dessin à être découpé en vinyle autocollant
 temps: 25 minutes
 niveau: intermédiaire
 age: 12 ans +
@@ -10,7 +10,7 @@ La découpeuse vinyle est un outil utilisé par les professionnels pour faire de
 Dans ce tuto on voir comment faire un dessin qui va ensuite permettre de guider la lame de la découpeuse pour faire un autocollant.
 
 
-## Faire un dessin et le scanner
+## Avoir un dessin et le scanner
 
 Faire son dessin au feutre noir sur du papier blanc, pour qu'il se numérise bien et que l'ordinateur puisse bien le reconnaître.
 
