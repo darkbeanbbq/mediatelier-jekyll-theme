@@ -4,7 +4,7 @@ titre: Guide d'utilisation de la découpeuse
 
 # Guide d'utilisation de la découpeuse
 
-![img]
+![image titre](images/decoupeuse/decoupeuse.jpg)
 
 Tout pour savoir comment utiliser la découpeuse !
 
