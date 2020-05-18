@@ -2,6 +2,8 @@
 titre: guides & documentation
 ---
 
+[liste de tous les guides](liste-docs.html)
+
 # liste des guides
 
 <ul>
