@@ -3,6 +3,7 @@ titre: Écrire une histoire interactive
 temps: 1 heure +
 niveau: intermédiaire
 age: 10 ans +
+image-titre: inklewriter/titre-auteur.png
 ---
 
 Les livres dont vous êtes le héro existe depuis ....

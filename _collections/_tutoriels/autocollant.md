@@ -3,6 +3,7 @@ titre: Préparer un dessin à être découpé en vinyle autocollant
 temps: 25 minutes
 niveau: intermédiaire
 age: 12 ans +
+image-titre: logo/feutre-propre.jpg
 ---
 
 La découpeuse vinyle est un outil utilisé par les professionnels pour faire de la signalétique, des autocollants pour les voitures ou les vitrines de magasins.

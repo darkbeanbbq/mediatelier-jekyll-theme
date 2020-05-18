@@ -4,6 +4,7 @@ temps: 1 heure
 niveau: intermédiaire
 age: 10 ans +
 fiche: colorisation-fiche
+image-titre: colorisation/dessin-contour.png
 ---
 
 [//]: # intro
